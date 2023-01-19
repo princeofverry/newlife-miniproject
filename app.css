@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    width: 800px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+
+/* memulai awal untuk header */
+
+.header {
+    position: relative;
+    background-color: #fff;
+}
+
+.landing-page .header {
+    display: flex;
+    padding: 25px 0 0;
+    position: relative;
+}
+
+.landing-page .header .logo {
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 300px;
+    color: #5d5d5d;    
+}
+
+.landing-page .header .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.landing-page .header .links li {
+    display: inline-block;
+    margin-left: 45px;
+    color: #5d5d5d;
+    cursor: pointer;
+}
+
+.landing-page .header .links li:nth-of-type(4) {
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 18px;
+    color: #fff;
+    background-color: #6c63ff;
+}
+
+.landing-page .intro {
+    width: 35%;
+    float: left;
+    margin-top: 100px;
+    /* margin: 75px; */
+}
+
+.landing-page .intro h1 {
+    font-size: 44px;
+    margin: 0 0 20px;
+    line-height: 1.4;
+    color: #5d5d5d;
+}
+
+.landing-page .intro p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 15px;
+    color: #5d5d5d;
+}
+
+.landing-page .intro button {
+    border: 0;
+    border-radius: 20px;
+    padding: 12px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #6c63ff;
+}
+
+.landing-page .image {
+    margin-top: 30px;
+    display: flex;
+    align-self: center;
+    width: 25%;
+    /* float: right; */
+}
+
+.landing-page .image img {
+    max-width: 100%;
+}
+
+.clearfix {
+    clear: both;
+}
